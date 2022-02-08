@@ -93,10 +93,23 @@ const toArray = Array.from(map1)
 
 // Array.from
 const myNewObject = {
-  '0': 'a',
-  '1': "Felipe",
-  '2': 'red'
+  0: 'a',
+  1: 'Felipe',
+  2: 'red',
+  length: 3
 }
 
 const toArray1 = Array.from(myNewObject)
-console.log(toArray1)
+
+// SET
+// is a collection of UNIQUE and ordered elements
+//creating a new set
+const fruteSet = new Set(['banana', 'apple', 'pen'])
+//size of a set
+const size1 = fruteSet.size
+//check if has an property
+const exists = fruteSet.has('banana')
+//delete an element
+const delete23 = fruteSet.delete('banana')
+//iterating
+const values5 = fruteSet.values()
