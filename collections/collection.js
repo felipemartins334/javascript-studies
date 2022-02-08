@@ -38,3 +38,65 @@ const size = (funMap.size)
 
 //delete 
 const deleteFun = (funMap.delete(12))
+
+
+//--------MapIterator: keys(), values(), entries()
+
+const ageMap = new Map([
+  ['Jack', 20],
+  ['Alan', 34],
+  ['Bill', 10],
+  ['Sam', 9]
+])
+
+const keys = ageMap.keys()
+
+const values = ageMap.values()
+
+const entries = ageMap.entries()
+
+// ITERATE OVER A MAP
+ageMap.forEach((value, key) => {
+})
+
+for(const [x,y] of ageMap){
+}
+
+//converting object into a map
+const address = {
+  "Felipe": "Brazil",
+  "Rekkles": "Sweden",
+  "Nemesis": "Slovenia"
+}
+
+const addressMap = new Map((Object.entries(address)))
+
+// converting map into object
+
+const reverse = Object.fromEntries(addressMap)
+//fromEntries transforma uma list de chave-valor em um objeto
+const list = [
+  ["Key4", "Value1"],
+  ["Key2", "Value2"],
+  ["Key3", "Value3"],
+  ["Key4", "Value4"],
+]
+const listReverse = Object.fromEntries(list)
+
+//convert map into array
+const map1 = new Map()
+map1.set('milk', 200)
+map1.set('tea', 300)
+map1.set('coffee', 500)
+
+const toArray = Array.from(map1)
+
+// Array.from
+const myNewObject = {
+  '0': 'a',
+  '1': "Felipe",
+  '2': 'red'
+}
+
+const toArray1 = Array.from(myNewObject)
+console.log(toArray1)
