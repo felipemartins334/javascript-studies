@@ -1,0 +1,9 @@
+{
+  "name": "javascript studies",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:felipemartins334/javascript-studies.git",
+  "author": "Felipe Martins <felipemartins0304@hotmail.com>",
+  "license": "MIT"
+}
