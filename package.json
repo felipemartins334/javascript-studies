@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
-    "dev": "node --inspect iterators/iterators.js"
+    "dev": "node --inspect generators/generators.js"
   },
   "main": "index.js",
   "repository": "git@github.com:felipemartins334/javascript-studies.git",
